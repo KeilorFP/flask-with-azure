@@ -1,13 +1,18 @@
-1. Select any toy data (simple data) 
+# 🚀 End-to-End ML Model Deployment (API + Web App)
 
-2. Save the model 
+This project demonstrates the **full pipeline of building, saving, and deploying a machine learning model** using toy data. The model is exposed via both a **REST API** and a **web application**, and deployed to a cloud platform using **free-tier services** (Heroku, AWS, GCP, or Azure).
 
-3. Deploy the model on any cloud eg: Heroku,AWS,GCP,Azure (Deployment should be API based as well as web app)
+---
 
-4. Create pdf document (Name, Batch code, Submission date, Submitted to ) which should contain snapshot of each step of deployment)
+## 📌 Project Summary
 
-5. Upload the document and code to Github
+| Task                     | Description                                    |
+|--------------------------|------------------------------------------------|
+| Dataset                  | Simple toy dataset (e.g., Iris, Titanic, or custom) |
+| Model                    | Supervised ML model (e.g., logistic regression or decision tree) |
+| API Deployment           | Flask or FastAPI + deployment on cloud        |
+| Web App Deployment       | Streamlit, Flask frontend, or basic HTML+JS   |
+| Cloud Platforms Tested   | Heroku / AWS EC2 / GCP App Engine / Azure Web Apps |
+| Documentation            | PDF with deployment steps and screenshots     |
 
-6. Submit the URL of the uploaded document.
-
-Use free credits(trial or student account) of AWS, GCP, Azure to deploy the app.
+---
